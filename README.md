@@ -17,7 +17,7 @@ Pregnancies, Glucose, Blood Pressure, BMI, Insulin, Age, DiabetesPedigreeFunctio
 
 * Correlation heatmap, box/violin plots, missingness bar plot (missingno), and ROC curves for multiple models.
 
-  3. Models & Tuning -
+3. Models & Tuning -
 
 * Trained models include:
 * Logistic Regression
@@ -51,7 +51,7 @@ Class 1 — Precision 0.78, Recall 0.87, F1 0.82
 
 * Out of all these Models SVM come out with hightest accuracy=91.1% almost then GradientBossting=90%
 
-   4. On ROC–AUC
+4. On ROC–AUC
 
 -> From  ROC plots and tuned classifiers
 * SVM (RBF, C=10, γ=0.01) → AUC ≈ 0.96 (highest)
@@ -62,7 +62,7 @@ Class 1 — Precision 0.78, Recall 0.87, F1 0.82
 
 * So in terms of ROC–AUC, the SVM is the best model.
 
--> MSE/MAE are regression metrics, they can be adapted for classification by comparing the predicted label (0/1) with the true label.
+5. MSE/MAE are regression metrics, they can be adapted for classification by comparing the predicted label (0/1) with the true label.
 * [[91, 7],
  [ 6, 48]]
 * Total = 91 + 7 + 6 + 48 = 152
@@ -75,7 +75,7 @@ Class 1 — Precision 0.78, Recall 0.87, F1 0.82
 * For 0/1 classification, MAE = MSE (same reasoning).
 * MAE ≈ 0.0855
 
-  -> Best Model: SVM (RBF, tuned with GridSearchCV)
+6. Best Model: SVM (RBF, tuned with GridSearchCV)
 * Accuracy: 91.45% (Test)
 * ROC–AUC: ~0.96 (highest among all models)
 * MSE / MAE: ~0.085 (≈ 8.5% error rate)
